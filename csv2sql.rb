@@ -12,10 +12,11 @@ puts "  `id` INTEGER PRIMARY KEY AUTOINCREMENT,"
 puts "  `groupid` INTEGER,"
 puts "  `word` TEXT,"
 puts "  `mean` TEXT,"
+puts "  `term` TEXT,"
 puts "  `level` INTEGER"
 puts ");"
 puts ""
 
 CSV.foreach(ARGV[0]) do |row|
-  puts "INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (#{row[0]}, #{row[1]}, \"#{row[2]}\", \"#{row[3]}\", #{row[4]});"
+  puts "INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (#{row[0]}, #{row[1]}, \"#{row[2]}\", \"#{row[4]}\",\"#{row[3]}\", #{row[5]});"
 end
