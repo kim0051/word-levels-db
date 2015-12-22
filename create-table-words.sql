@@ -7198,7 +7198,7 @@ INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (7189, 189
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (7190, 190, "contagious", "[形]伝染性の", 8);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (7191, 191, "contaminate", "[動]汚染する", 8);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (7192, 192, "contented", "[形]満足した", 8);
-INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (7193, 193, "contributor", "[名]寄付者",  貢献者);
+INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (7193, 193, "contributor", "[名]寄付者, 貢献者", 8);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (7194, 194, "cookery", "[名]料理法", 8);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (7195, 195, "coordination", "[名]対等関係", 8);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (7196, 196, "correlation", "[名]相互関係", 8);
@@ -7233,7 +7233,7 @@ INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (7224, 224
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (7225, 225, "decorative", "[形]装飾の", 8);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (7226, 226, "dedication", "[名]熱心、献身", 8);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (7227, 227, "defective", "[形]不完全な", 8);
-INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (7228, 228, "degradation", "[名]下落",  堕落);
+INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (7228, 228, "degradation", "[名]下落, 堕落", 8);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (7229, 229, "delete", "[動]削除する", 8);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (7230, 230, "delicacy", "[名]優雅、上品さ", 8);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (7231, 231, "delta", "[名]三角州", 8);
@@ -11217,7 +11217,7 @@ INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (11208, 20
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (11209, 209, "creak", "[名]キーキー鳴る音", 12);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (11210, 210, "crease", "[名]ひだ, しわ", 12);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (11211, 211, "crevice", "[名]割れ目", 12);
-INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (11212, 212, "cringe", "[動]ぺこぺこする",  へつらう);
+INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (11212, 212, "cringe", "[動]ぺこぺこする, へつらう", 12);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (11213, 213, "crochet", "[名]かぎ針編み", 12);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (11214, 214, "crucifixion", "[名]キリストのはりつけ", 12);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (11215, 215, "crux", "[名]最重要点, 難問", 12);
@@ -11354,7 +11354,7 @@ INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (11345, 34
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (11346, 346, "extricate", "[動]解放する", 12);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (11347, 347, "extrovert", "[名]外向的な人", 12);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (11348, 348, "exude", "[動]しみ出す, 発散する", 12);
-INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (11349, 349, "fabrication", "[名]製作", 偽造);
+INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (11349, 349, "fabrication", "[名]製作,偽造", 12);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (11350, 350, "facetious", "[形]ふざけた", 12);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (11351, 351, "fallacy", "[名]誤信, 誤った考え", 12);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `level`) values (11352, 352, "fastidious", "[形]（口）うるさい", 12);
