@@ -10,7 +10,7 @@ end
 puts "CREATE TABLE `words` ("
 puts "  `id` INTEGER PRIMARY KEY AUTOINCREMENT,"
 puts "  `groupid` INTEGER,"
-puts "  `word` TEXT UNIQUE,"
+puts "  `word` TEXT,"
 puts "  `mean` TEXT,"
 puts "  `level` INTEGER"
 puts ");"

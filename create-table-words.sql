@@ -1,7 +1,7 @@
 CREATE TABLE `words` (
   `id` INTEGER PRIMARY KEY AUTOINCREMENT,
   `groupid` INTEGER,
-  `word` TEXT UNIQUE,
+  `word` TEXT,
   `mean` TEXT,
   `level` INTEGER
 );
