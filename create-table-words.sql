@@ -535,9 +535,9 @@ INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (5
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (524, 527, "mouth", "口", "名", 1);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (525, 528, "move", "動く、移動させる", "動", 1);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (526, 529, "movie", "映画", "名", 1);
-INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (527, 530, "Mr.", "1", "[名]…様，…さん", );
-INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (528, 531, "Mrs.", "1", "[名](既婚の女性）～夫人", );
-INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (529, 532, "Ms.", "1", "[名]～さん、～先生", );
+INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (527, 530, "Mr.", "…様，…さん", "名", 1);
+INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (528, 531, "Mrs.", "(既婚の女性）～夫人", "名", 1);
+INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (529, 532, "Ms.", "～さん、～先生", "名", 1);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (530, 533, "much", "たくさんの", "形", 1);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (531, 534, "museum", "博物館", "名", 1);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (532, 535, "music", "音楽、楽譜", "名", 1);
@@ -578,7 +578,7 @@ INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (5
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (567, 570, "now", "今", "副", 1);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (568, 571, "number", "数字、数", "名", 1);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (569, 572, "nurse", "看護師", "名", 1);
-INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (570, 573, "o'clock", "1", "[副]時", );
+INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (570, 573, "o'clock", "時", "副", 1);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (571, 574, "October", "10月", "名", 1);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (572, 575, "of", "～の", "前", 1);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (573, 576, "off", "離れて", "前", 1);
@@ -5408,7 +5408,7 @@ INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (5
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (5397, 397, "gratitude", "感謝", "名", 6);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (5398, 398, "gravity", "重力", "名", 6);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (5399, 399, "graze", "草を食う", "動", 6);
-INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (5400, 400, "grill", "", "名]焼き肉[魚", 6);
+INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (5400, 400, "grill", "焼き肉(魚)", "名", 6);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (5401, 401, "grouping", "グループにすること", "名", 6);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (5402, 402, "grove", "木立ち", "名", 6);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (5403, 403, "grower", "栽培者", "名", 6);
@@ -7373,7 +7373,7 @@ INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (7
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (7362, 362, "favored", "好意をもたれている", "形", 8);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (7363, 363, "fellowship", "友情", "名", 8);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (7364, 364, "feminism", "男女同権主義", "名", 8);
-INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (7365, 365, "fertility", "力", "名]繁殖[受精", 8);
+INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (7365, 365, "fertility", "繁殖,受精,力", "名", 8);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (7366, 366, "fertilize", "受精させる", "動", 8);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (7367, 367, "fertilizer", "肥料", "名", 8);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (7368, 368, "festive", "祭りの", "形", 8);
@@ -8537,7 +8537,7 @@ INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (8
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (8526, 526, "mediocre", "平凡な", "形", 9);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (8527, 527, "meek", "おとなしい", "形", 9);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (8528, 528, "merchandising", "商品化計画", "名", 9);
-INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (8529, 529, "Messrs.", "9", "[名]Mrの複数形", );
+INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (8529, 529, "Messrs.", "Mrの複数形", "名", 9);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (8530, 530, "metro", "地下鉄", "名", 9);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (8531, 531, "midweek", "週の中ほど", "名", 9);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (8532, 532, "milestone", "画期的な出来事", "名", 9);
@@ -9210,7 +9210,7 @@ INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (9
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (9199, 199, "consecutive", "連続的な", "形", 10);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (9200, 200, "consign", "委託する, 発送する", "動", 10);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (9201, 201, "consortium", "共同企業体", "名", 10);
-INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (9202, 202, "constrain", "〈…〉させる", "動]〈人に〉強いて[無理に", 10);
+INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (9202, 202, "constrain", "〈人に〉強いて(無理に),〈…〉させる", "動", 10);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (9203, 203, "construe", "解釈する", "名", 10);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (9204, 204, "consul", "領事", "名", 10);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (9205, 205, "consulate", "領事館", "名", 10);
@@ -9219,7 +9219,7 @@ INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (9
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (9208, 208, "continuance", "持続, 継続時間", "名", 10);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (9209, 209, "convene", "招集する", "動", 10);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (9210, 210, "converge", "集まる", "動", 10);
-INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (9211, 211, "convertible", "できる", "形]改造[改装", 10);
+INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (9211, 211, "convertible", "改造(改装),できる", "形", 10);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (9212, 212, "conveyance", "運搬", "名", 10);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (9213, 213, "convoy", "護衛隊", "名", 10);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (9214, 214, "coral", "さんご", "名", 10);
@@ -9408,7 +9408,7 @@ INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (9
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (9397, 397, "fundraising", "資金調達", "名", 10);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (9398, 398, "fungus", " 真菌類，菌類", "名", 10);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (9399, 399, "furnishing", "家具の取付、供給", "名", 10);
-INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (9400, 400, "fuse", "させる", "動]溶解[融解", 10);
+INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (9400, 400, "fuse", "溶解(融解),させる", "動", 10);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (9401, 401, "gadget", "便利な小道具", "名", 10);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (9402, 402, "gag", "口止め", "名", 10);
 INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (9403, 403, "gallant", "勇敢な", "形", 10);
