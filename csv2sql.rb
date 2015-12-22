@@ -7,6 +7,9 @@ if ARGV[0] == nil
   exit 1
 end
 
+
+puts "PRAGMA encoding = \"UTF-8\";"
+puts ""
 puts "CREATE TABLE `words` ("
 puts "  `id` INTEGER PRIMARY KEY AUTOINCREMENT,"
 puts "  `groupid` INTEGER,"

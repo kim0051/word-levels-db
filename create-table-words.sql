@@ -1,3 +1,5 @@
+PRAGMA encoding = "UTF-8";
+
 CREATE TABLE `words` (
   `id` INTEGER PRIMARY KEY AUTOINCREMENT,
   `groupid` INTEGER,
