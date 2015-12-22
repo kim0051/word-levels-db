@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+require 'csv'
+
 if ARGV[0] == nil
   puts "Usage: csv2sql.rb word-levels.csv"
   exit 1
@@ -14,8 +16,6 @@ puts "  level integer"
 puts ");"
 puts ""
 
-File.open(ARGV[0]).each_line do |line|
-  line.chomp!
-  d = line.split(",")
-  puts "INSERT INTO `words` (id, sub_id, word, mean, level) values (#{d[0]}, #{d[1]}, \"#{d[2]}\", \"#{d[3]}\", #{d[4]});"
+CSV.foreach(ARGV[0]) do |row|
+  puts "INSERT INTO `words` (id, sub_id, word, mean, level) values (#{row[0]}, #{row[1]}, \"#{row[2]}\", \"#{row[3]}\", #{row[4]});"
 end
