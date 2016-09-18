@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS `svl12000`;
 CREATE TABLE `svl12000` (
   `id` INT(11) AUTO_INCREMENT,
   `groupid` INT(11),
@@ -7,7 +8,8 @@ CREATE TABLE `svl12000` (
   `level` INT(11),
   PRIMARY KEY (`id`),
   KEY `word` (`word`),
-  KEY `term` (`term`)
+  KEY `term` (`term`),
+  KEY `level` (`level`)
 );
 
 INSERT INTO `svl12000` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (1, 1, "a", "１つの", "冠", 1);
