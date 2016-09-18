@@ -1,12 +1,13 @@
-PRAGMA encoding = "UTF-8";
-
 CREATE TABLE `svl12000` (
-  `id` INTEGER PRIMARY KEY AUTOINCREMENT,
-  `groupid` INTEGER,
-  `word` TEXT,
+  `id` INT(11) AUTO_INCREMENT,
+  `groupid` INT(11),
+  `word` VARCHAR(128),
   `mean` TEXT,
-  `term` TEXT,
-  `level` INTEGER
+  `term` VARCHAR(128),
+  `level` INT(11),
+  PRIMARY KEY (`id`),
+  KEY `word` (`word`),
+  KEY `term` (`term`)
 );
 
 INSERT INTO `svl12000` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (1, 1, "a", "１つの", "冠", 1);
