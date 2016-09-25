@@ -8,12 +8,14 @@ def csvfile(s)
   @path + "/level-#{s}.csv"
 end 
 
+count = 0
 (1..12).each do |level|
   level_s = "%02d" % level
-
+  
   CSV.foreach(csvfile(level_s)) do |row|
     id = row[0].to_i
-    total_id = (level-1)*1000 + id
+    count += 1
+    total_id = count
     word = row[1]
     mean_raw = row[2]
     _, hinshi, mean = mean_raw.split(/[\[\]]/)

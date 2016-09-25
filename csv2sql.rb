@@ -7,10 +7,11 @@ if ARGV[0] == nil
   exit 1
 end
 
+table = 'svl12000'
 
 puts "PRAGMA encoding = \"UTF-8\";"
 puts ""
-puts "CREATE TABLE `words` ("
+puts "CREATE TABLE `#{table}` ("
 puts "  `id` INTEGER PRIMARY KEY AUTOINCREMENT,"
 puts "  `groupid` INTEGER,"
 puts "  `word` TEXT,"
@@ -21,5 +22,5 @@ puts ");"
 puts ""
 
 CSV.foreach(ARGV[0]) do |row|
-  puts "INSERT INTO `words` (`id`, `groupid`, `word`, `mean`, `term`, `level`) values (#{row[0]}, #{row[1]}, \"#{row[2]}\", \"#{row[4]}\", \"#{row[3]}\", #{row[5]});"
+  puts "INSERT INTO `#{table}` (`groupid`, `word`, `mean`, `term`, `level`) values (#{row[1]}, \"#{row[2]}\", \"#{row[4]}\", \"#{row[3]}\", #{row[5]});"
 end
